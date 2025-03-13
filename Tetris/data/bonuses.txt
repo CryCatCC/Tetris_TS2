@@ -1,0 +1,5 @@
+Bonuses
+    - all Classic mode features 
+    - switch figures twice
+    - slow game by pressing T key (active before first line being erased, after using bomb)
+    - you can erase random 3 lines by pressing B key (active after every 20 placed figures)
