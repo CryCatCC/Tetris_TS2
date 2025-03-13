@@ -1,5 +1,0 @@
-Classic Tetris features
-    - using all figures
-    - ability to rotate figures
-    - switch between next and current figure (once)
-    - see next 4 figures
