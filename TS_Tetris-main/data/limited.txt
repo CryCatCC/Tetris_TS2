@@ -1,0 +1,7 @@
+Limited Tetris: - you can use only defined figures
+    - Level 1: except I
+    - Level 2: except I, O
+    - Level 3: except O, J, L
+    - Level 4 and higher: except I, O, J, L
+- see only next 2 figures
+- cannot switch between current and next figure

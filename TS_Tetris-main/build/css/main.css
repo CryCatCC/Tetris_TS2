@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000b18;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    align-self: center;
+}
+/* ----------- MAIN MENU ------------ */
+.main-menu-container{
+    width:80%;
+    margin: auto;
+}
+.game-name{
+    display: block;
+    width:40%;
+    margin: auto;
+}
+.modes-container > ul > li{
+    display: inline-block;
+    width: 33%;
+}
+.modes-container p {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.modes-container > ul> li > img.mode-text{
+    height:4em;
+    margin: auto;
+    display: block;
+}
+.modes-container > ul > li > img.mode-img{
+    width:80%;
+    border:3px solid white;
+    border-radius: 5%;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+}
+
+/* ------------ GAME ------------ */
+#game_container{
+    display: none;
+}
+.game-canvas-container {
+    border: rgb(255, 255, 255) 3px solid;
+    /* box-shadow: rgb(25, 244, 252) 0px 0px 50px; */
+}
+.game-info-container{
+    height:79px;
+    border: rgb(255, 255, 255) 3px solid;
+    border-bottom: none;
+}
+.game-info-container .images{
+    display: flex;
+    justify-content: space-between;
+    /* width:80%; */
+    margin: auto;
+    padding: 5px;
+}
+#game_container button{
+    border-radius: 5px;
+    border: none;
+    background-color: #036ff3;
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 1em 0 1em;
+    margin: 5px;
+}
+#game_container button:hover{
+    color: #000000;
+    background-color: orange;
+}
+.small-mode-img {
+    height: 64px;   
+    width: 64px;
+    border-radius: 5px;
+}
+.small-mode-text{
+    height: 64px;
+}
+.info {
+    position: absolute;
+    top:21vh;
+    
+    max-width: 80vw;
+    margin: auto;
+
+    display: none;
+    
+    background-color: #00295c;
+    border:2px dotted gray;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+}
+.info pre{
+    
+    white-space: break-spaces ;
+}
+
