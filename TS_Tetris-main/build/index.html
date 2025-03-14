@@ -81,7 +81,7 @@
             document.getElementById("game_container").style.display="block";
             game = new TetrisGame("#game");
             game.init(mode);
-            readFile("/../data/"+mode+".txt", function(text){
+            readFile("../../data/"+mode+".txt", function(text){
             var data = text;
             let p = document.createElement('pre');
             p.textContent = data;
